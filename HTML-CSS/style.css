@@ -1,44 +1,69 @@
-#author_pic {
+.related-posts {
   width: 75px;
   height: 75px;
 }
 
-.related_posts {
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.related-section {
+  list-style: none;
+}
+
+#author-pic {
   width: 75px;
   height: 75px;
+}
+
+#author-post {
+  font-style: italic;
+  font-size: 18px;
+}
+
+#copyright {
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  font-family: sans-serif;
 }
 
 h1 {
-  font-family: sans-serif;
   font-size: 26px;
   font-style: italic;
   text-transform: uppercase;
 }
 
 h2 {
-  font-family: sans-serif;
   font-size: 40px;
 }
 
 h3 {
-  font-family: sans-serif;
   font-size: 30px;
 }
 
 h4 {
-  font-family: sans-serif;
   font-size: 20px;
   text-transform: uppercase;
   text-align: center;
 }
 
 p {
-  font-family: sans-serif;
   font-size: 22px;
   line-height: 1.5;
 }
 
 li {
-  font-family: sans-serif;
   font-size: 20px;
 }
+
+/* footer p {
+  font-size: 16px;
+} */

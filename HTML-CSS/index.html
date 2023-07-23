@@ -29,9 +29,9 @@
         <img
           src="images/laura-jones.jpg"
           alt="Profile Picture of Laura Jones"
-          id="author_pic"
+          id="author-pic"
         />
-        <p>Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
+        <p id="author-post">Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
         <img src="images/post-img.jpg" alt="HTML Code on a Screen" />
       </header>
 
@@ -100,37 +100,39 @@
     <aside>
       <h4>Related Posts</h4>
 
-      <ul>
+      <ul class="related-section">
         <li>
           <img
             src="images/related-1.jpg"
             alt="Man Coding on a Laptop"
-            class="related_posts"
+            class="related-posts"
           />
           <a href="#">How to Learn Web Developments</a>
-          <p>By Jonas Schmedtmann</p>
+          <p class="related-author">By Jonas Schmedtmann</p>
         </li>
         <li>
           <img
             src="images/related-2.jpg"
             alt="Lightning Strike"
-            class="related_posts"
+            class="related-posts"
           />
           <a href="#">The Unknown Powers of CSS</a>
-          <p>By Jim Dillon</p>
+          <p class="related-author">By Jim Dillon</p>
         </li>
         <li>
           <img
             src="images/related-3.jpg"
             alt="JavaScript Code on a Screen"
-            class="related_posts"
+            class="related-posts"
           />
           <a href="#">Why JavaScript is Awesome</a>
-          <p>By Matilda</p>
+          <p class="related-author">By Matilda</p>
         </li>
       </ul>
     </aside>
 
-    <footer>Copyright &copy; 2027 by The Code Magazine</footer>
+    <footer>
+      <p id="copyright">Copyright &copy; 2027 by The Code Magazine</p>
+    </footer>
   </body>
 </html>
