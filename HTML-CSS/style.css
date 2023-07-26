@@ -1,7 +1,11 @@
 /* The universal selector will aplay a style to every element, even those properties that aren't auto inherited */
-/* * {
-  border-top: 10px solid deeppink;
-} */
+* {
+  /* border-top: 10px solid deeppink; */
+
+  /* Resetting global padding and margin */
+  margin: 0;
+  padding: 0;
+}
 
 body {
   font-family: sans-serif;
@@ -26,6 +30,8 @@ body {
   background-color: #f7f7f7;
 
   border-top: 10px solid #1098ad;
+  padding: 20px 40px;
+  margin-bottom: 60px;
 }
 
 #author-pic {
@@ -85,14 +91,18 @@ aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
+
+  padding: 50px 0;
 }
 
-li:first-child {
-  font-weight: bold;
+li {
+  font-size: 20px;
+
+  margin-bottom: 10px;
 }
 
 li:last-child {
-  font-style: italic;
+  margin-bottom: 0;
 }
 
 /* li:nth-child(even) {
