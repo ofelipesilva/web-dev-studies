@@ -22,6 +22,24 @@ body {
   border: 5px solid #222;
 }
 
+/* SALE TAG */
+.product-name::before {
+  content: "SALE";
+
+  color: #fff;
+  background-color: #ff002b;
+
+  letter-spacing: 2px;
+  font-size: 12px;
+  font-weight: bold;
+
+  padding: 7px 15px;
+
+  position: absolute;
+  top: -17px;
+  left: -38px;
+}
+
 .product-name {
   background-color: #f7f7f7;
   font-size: 22px;
@@ -30,6 +48,8 @@ body {
   text-align: center;
 
   padding: 20px 0;
+
+  position: relative;
 }
 
 .product-price {
@@ -99,4 +119,37 @@ body {
 
   cursor: pointer;
   border-top: 4px solid #000;
+}
+
+/* Product colors */
+
+.shoe-colors {
+  margin-top: 25px;
+}
+
+.color {
+  padding: 10px;
+  margin-right: 15px;
+
+  border: none;
+  cursor: pointer;
+}
+
+.color-black {
+  background-color: #000;
+}
+.color-blue {
+  background-color: #0d74d4;
+}
+.color-red {
+  background-color: #ff002b;
+}
+.color-green {
+  background-color: #2af04b;
+}
+.color-yellow {
+  background-color: #f5f118;
+}
+.color-brown {
+  background-color: #8b4513;
 }
