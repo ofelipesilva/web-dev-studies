@@ -64,8 +64,6 @@ body {
 
   font-size: 12px;
   font-weight: bold;
-
-  margin-bottom: 20px;
 }
 
 .product-text {
@@ -89,7 +87,7 @@ body {
   text-transform: uppercase;
   font-size: 16px;
 
-  margin-top: 30px;
+  /* margin-top: 30px; */
   margin-bottom: 15px;
 }
 
@@ -155,7 +153,7 @@ body {
 }
 
 /* FLOATS */
-.product-image {
+/* .product-image {
   float: left;
 }
 
@@ -189,4 +187,54 @@ body {
 
 .product-detail {
   margin-top: 0;
+} */
+
+/* FLEX */
+.row {
+  display: flex;
+
+  gap: 40px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.column {
+  flex: 1;
+}
+
+.price-shipping {
+  display: flex;
+
+  align-items: flex-start;
+  justify-content: space-between;
+
+  margin-bottom: 20px;
+}
+
+.shoe-colors {
+  display: flex;
+}
+
+.color-black {
+  order: 0;
+}
+
+.color-blue {
+  order: 1;
+}
+
+.color-red {
+  order: 2;
+}
+
+.color-yellow {
+  order: 3;
+}
+
+.color-green {
+  order: 4;
+}
+
+.color-brown {
+  order: 5;
 }
