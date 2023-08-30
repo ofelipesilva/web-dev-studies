@@ -190,16 +190,18 @@ body {
 } */
 
 /* FLEX */
-.row {
+
+/* FLEX LAYOUT */
+/* .row {
   display: flex;
 
   gap: 40px;
   align-items: center;
   justify-content: space-between;
-}
+} */
 
 .column {
-  flex: 1;
+  /* flex: 1; */
 }
 
 .price-shipping {
@@ -237,4 +239,30 @@ body {
 
 .color-brown {
   order: 5;
+}
+
+/* CSS GRID LAYOUT */
+.product-page {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr;
+
+  column-gap: 40px;
+  align-items: center;
+}
+
+.product-name {
+  grid-column: 1 / -1;
+}
+
+.description {
+  grid-column: 2 / 3;
+}
+
+.details {
+  grid-column: 3 / 4;
+}
+
+.cart-button {
+  grid-column: 1 / -1;
 }
