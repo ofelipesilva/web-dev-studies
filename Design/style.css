@@ -61,7 +61,7 @@ h2 {
 
   background-color: #087f5b;
 
-  border-radius: 10px;
+  border-radius: 100px;
 
   color: #fff;
   text-transform: uppercase;
@@ -74,14 +74,12 @@ h2 {
   background-color: #099268;
 }
 
-.btn--big:link,
-.btn--big:visited {
+.btn--big {
   font-size: 18px;
   padding: 16px 32px;
 }
 
-.btn--small:link,
-.btn--small:visited {
+.btn--small {
   font-size: 14px;
   padding: 8px 12px;
 }
@@ -107,6 +105,8 @@ h1 {
   letter-spacing: -1px;
 
   margin-bottom: 24px;
+
+  /* text-shadow: 0 10px 2px rgba(0, 0, 0, 0.2); */
 }
 
 .header-text {
@@ -119,6 +119,7 @@ h1 {
 
 img {
   width: 100%;
+  border-radius: 20px;
 }
 
 /* FEATURES */
@@ -147,6 +148,7 @@ img {
   background-color: var(--main-color);
 
   padding: 24px;
+  border-radius: 20px;
 }
 
 .testimonial-box {
@@ -169,6 +171,16 @@ img {
 }
 
 /* CHAIRS */
+.chair {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.chair img {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0px;
+}
+
 .chair-box {
   padding: 24px;
 }
